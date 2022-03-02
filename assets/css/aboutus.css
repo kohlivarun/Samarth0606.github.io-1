@@ -1,0 +1,656 @@
+.aboutusbanner {
+  background: #1a1c25;
+}
+.aboutus {
+  position: relative;
+}
+.about-journey {
+  position: absolute;
+  left: 0;
+  top: 5%;
+  max-width: 280px;
+}
+.about-journey h3 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+}
+.aboutcontent{
+  position: relative;
+}
+.aboutcontent .aboutbg{
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+.aboutcontent .aboutcb{
+  position: relative;
+  z-index: 2;  
+  width: 100%;
+}
+.cbbigtxt{
+  font-size: 12rem;
+  font-weight: 900;
+  letter-spacing: 2rem;
+  color: #fff;
+  line-height: normal;
+  text-align: center;
+}
+.cbbigtxt span{
+  position: relative;
+}
+.cbbigtxt span .cbusercup{
+position: absolute;
+left: calc(50% - 52px);
+    top: calc(50% - 48px);
+    max-width: 100%;
+}
+.cbbigtxt span .cbcat{
+  position: absolute;
+  left: calc(50% - 54px);
+  top: 140px;
+  max-width: 100%;
+  }
+  .cbbigtxt span .cblaptop{
+    position: absolute;
+    left: calc(50% - 45px);
+    top: calc(50% - 38px);
+    max-width: 100%;
+    }
+    .cbbigtxt span .cbuserbook{
+      position: absolute;
+      left: calc(50% - 45px);
+      top: -15px;
+      max-width: 100%;
+      }
+
+.cbbigtxt span small{
+  position: absolute;
+  bottom: 10px;
+  left: 15%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: normal;
+  display: block;
+  width: 100%;
+}
+.cbstroke{
+  text-align: center;
+}
+.cbstroke span{
+  position: relative;
+  line-height: normal;
+  font-size: 12rem;
+  font-weight: 900;
+  letter-spacing: 2rem;
+  background: -webkit-linear-gradient(#FB8530 100%, #FEB50B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 4px transparent;
+}
+.cbstroke span small{
+  background: transparent;
+  -webkit-background-clip: none;
+  -webkit-text-stroke: 0;
+  position: absolute;
+  bottom: 10px;
+  left: 15%;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: normal;
+  display: block;
+  width: 100%;
+}
+.cbstroke span .cbgirlmobile{
+  position: absolute;
+  left: calc(50% - 104px);
+  top: calc(50% - 38px);
+  max-width: 100%;
+  }
+  .cbstroke span .cbboybook{
+    position: absolute;
+    left: calc(50% - 34px);
+    top: calc(50% - 38px);
+    max-width: 100%;
+    }
+    .cbstroke span .cbleafpot{
+      position: absolute;
+      right: 22px;
+    top: calc(50% - 28px);
+    max-width: 100%;
+      }
+
+    
+.founderpan {
+  display: inline-block;
+  position: relative;
+}
+.founderpan > img {
+  opacity: 0.8;
+  width: 100%;
+}
+.detailinfo {
+  text-align: left;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+.detailinfo p {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: normal;
+  color: #fff;
+}
+.detailinfo p small {
+  font-size: 20px;
+  line-height: normal;
+  font-weight: normal;
+  display: block;
+}
+.journey-container,
+.road-container {
+  position: relative;
+}
+.timeline {
+  position: absolute;
+  color: #fff;
+}
+.timeline.left::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  background: #ffffff;
+}
+.timeline.right::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background: #ffffff;
+}
+.timeline.left {
+  text-align: right;
+  max-width: 360px;
+  padding-right: 25px;
+}
+.timeline.right {
+  text-align: left;
+  max-width: 360px;
+  padding-left: 25px;
+}
+.timeline.left .iconpan {
+  right: -60px;
+  position: absolute;
+  top: calc(50% - 15px);
+}
+.timeline.right .iconpan {
+  left: -60px;
+  position: absolute;
+  top: calc(50% - 15px);
+}
+.timeline h4 {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: normal;
+  background: -webkit-linear-gradient(#fb8133 100%, #ffba08 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+.timeline h4.roadmapcolor1{
+  background: -webkit-linear-gradient(#A4086C 100%, #DF5D5D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.timeline h4.roadmapcolor2{
+  background: -webkit-linear-gradient(#219653 100%, #55C294 100%);  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.timeline h4.roadmapcolor3{
+  background: -webkit-linear-gradient(#258EE8 100%, #2AB5ED 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.timeline h4.roadmapcolor4{
+  background: -webkit-linear-gradient(#D88EF4 100%, #AE4DED 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.imglogogroup img{
+  height: 24px;
+  padding: 5px;
+}
+.timeline h5 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+.timeline p {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: normal;
+  color: #ececec;
+  margin: 0;
+}
+.timeline.left2021 {
+  top: 6.5%;
+  left: 30%;
+  max-width: 430px;
+  padding-right: 25px;
+}
+
+.timeline.left2019 {
+  top: 23%;
+  left: 10%;
+}
+.timeline.left2019 .iconpan {
+  top: calc(50% - 25px);
+  right: -74px;
+}
+.timeline.right2018 {
+  top: 35%;
+  right: 8%;
+}
+.timeline.right.right2018 .iconpan {
+  top: calc(50% - 25px);
+  left: -70px;
+}
+.timeline.right2017 {
+  top: 45.5%;
+  left: 14%;
+}
+.timeline.left2016 {
+  top: 63%;
+  left: 31%;
+  max-width: 300px;
+}
+.timeline.left2015 {
+  top: 70%;
+  left: -6%;
+  max-width: 300px;
+}
+.timeline.left2015 .iconpan,
+.timeline.left2016 .iconpan {
+  top: calc(50% - 20px);
+  width: 40px;
+}
+.timeline.right2014 {
+  top: 86%;
+  left: 23%;
+}
+.timeline.right2014 .iconpan {
+  top: calc(50% - 25px);
+}
+.aboutus-team {
+  background: #1a1c25;
+}
+.teamboxcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 -40px;
+}
+.teambox {
+  max-width: 25%;
+  flex-basis: 25%;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.teambox .imgprofile {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  z-index: 2;
+  /* border-radius: 50%; */
+}
+.teambox h4 {
+  font-size: 24px;
+  line-height: normal;
+  font-weight: 700;
+  color: #fff;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+.teambox h4 small {
+  font-size: 16px;
+  line-height: normal;
+  color: #fb8133;
+  display: block;
+}
+.mobileSH,
+.imgmbjourney {
+  display: none;
+}
+.dtalign {
+  text-align: right;
+}
+.teambox .brandlogo{
+position: absolute;
+right: 0;
+top: 22%;
+z-index: 1;
+background: #21232d;
+    border-radius: 4px;
+    padding: 8px 25px;
+    display: flex;
+    flex-direction: column;
+    min-width: 160px;
+    align-items: flex-end;
+}
+.teambox .brandlogo img{
+  width: 62px;
+  margin: 5px 0;
+}
+.imgroadmap{
+  width: 100%;
+}
+.road-container .roadmapcircle{
+  background: #08090C;
+box-shadow: 4.38444px 16.4417px 10.9611px rgba(0, 0, 0, 0.5);
+border-radius: 50%;
+display: inline-flex;
+align-items: center;
+    justify-content: center;
+padding: 15px;
+border: 1px solid #fb8133;
+position: absolute;
+width: 64px;
+height: 65px;
+}
+.road-container .roadmapcircle.bdrroadmap1{
+  border: 1px solid #A4086C;
+}
+.road-container .roadmapcircle.bdrroadmap2{
+  border: 1px solid #219653;
+}
+.road-container .roadmapcircle.bdrroadmap3{
+  border: 1px solid #258EE8;
+}
+.road-container .roadmapcircle.bdrroadmap4{
+  border: 1px solid #D88EF4;
+}
+.road-container .timeline.right .roadmapcircle{
+  left: -55px;
+  top: calc(50% - 28px);
+}
+.road-container .timeline.left .roadmapcircle{
+  right: -55px;
+  top: calc(50% - 28px);
+}
+.timeline.right .roadmapcircle .iconpan{
+position: static;
+}
+.timeline.left .roadmapcircle .iconpan{
+  position: static;
+  }
+.road-container .timeline.right::before,
+.road-container .timeline.left::before{
+display: none;
+}
+.road-container .timeline h4{
+font-size: 16px;
+}
+.road-container .timeline p,
+.road-container .timeline .fontsize12{
+font-size: 12px;
+}
+.road-container .timeline.right,
+.road-container .timeline.left{
+  max-width: 220px;
+}
+.timeline.roadmap1{
+  top: 66px;
+  left: 3%;
+}
+.timeline.roadmap2{
+  top: 66px;
+  left:39%;
+}
+.timeline.roadmap2.rmgreen{
+top: 32px;
+}
+
+.timeline.roadmap3{
+  top: 66px;
+  left:71%;
+}
+.timeline.roadmap4{
+  top: calc(50% - 65px);
+  right: 24%;
+}
+.timeline.roadmap4.rbpos4{
+  bottom: 75px;
+    top: auto;
+}
+.timeline.roadmap5{
+  top: calc(50% - 65px);
+  right: 65.5%;
+}
+.timeline.roadmap5.rmorange{
+  bottom: 75px;
+    top: auto;
+  }
+.timeline.roadmap6{
+  bottom: 180px;
+    left: 2.5%;
+}
+.roadmaphead{position: relative;top: -2px;}
+.roadmapinfo{
+  position: absolute;
+    top: calc(50% - 111px);
+    right: 2%;
+    max-width: 130px;
+    color: #fff;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-top: 46px;
+    line-height: normal;
+}
+.roadmapinfo.Illmunati{
+  top: auto;
+  bottom:118px;
+}
+.roadmapinfo .roadmapinfoicon{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.feebox{
+  background: #1A1C25;
+box-shadow: 0px 15px 32px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+color: #fff;
+}
+.feeboxtop{
+  padding: 30px;
+}
+.feeboxtop h2{
+  font-size: 40px;
+  font-weight: bold;
+  line-height: normal;
+}
+.feeboxtop h2 span{
+  color: #ff7a01;
+}
+.feeboxtop p{
+  font-size: 14px;
+  color: #fff;
+}
+.btnwhite{
+  font-size: 14px;
+  line-height: normal;
+  padding: 15px 30px;
+  border-radius: 26px;
+  background: #fff;
+  border:0;
+}
+.btnfeegroup{
+  text-align: right;
+}
+.feebox hr{
+  border-color: #828282;
+}
+.feeboxbottom{
+  padding: 30px;
+  position: relative;
+}
+.feeboxbottom .tickicon{
+  position: relative;
+  margin-right: 10px;
+}
+.girlwithcup{
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+}
+@media (max-width: 767px) {
+  .btnfeegroup{
+    text-align: left;
+  }
+  .about-journey {
+    max-width: 100%;
+    left: 5%;
+    top: 15px;
+  }
+  .about-journey h3 {
+    display: none;
+  }
+  .dtSH,
+  .imgdtjourney,
+  .timeline.left::before,
+  .timeline.right::before {
+    display: none;
+  }
+  .mobileSH {
+    display: block;
+    text-align: center;
+  }
+  .imgmbjourney {
+    display: inline-block;
+  }
+  .dtalign {
+    text-align: center;
+  }
+  .timeline h4 {
+    font-size: 20px;
+  }
+  .timeline h5 {
+    font-size: 16px;
+  }
+  .timeline p {
+    font-size: 12px;
+  }
+  .timeline.left2021 {
+    max-width: 220px;
+    padding-right: 0;
+    padding-top: 28px;
+    left: 5%;
+    top: 10%;
+  }
+  .timeline.left2021 .iconpan {
+    top: 0;
+    right: 0;
+    width: 30px;
+  }
+  .timeline.left2019 {
+    max-width: 220px;
+    padding-right: 0;
+    padding-top: 28px;
+    text-align: left;
+    top: 25%;
+    left: 18%;
+  }
+  .timeline.left2019 .iconpan {
+    top: 0;
+    left: 0;
+    width: 30px;
+  }
+  .timeline.right2018 {
+    text-align: right;
+    top: 39%;
+    right: 22%;
+    padding-left: 0;
+    padding-top: 28px;
+    max-width: 190px;
+  }
+  .timeline.right.right2018 .iconpan {
+    top: 0;
+    left: auto;
+    right: 0;
+    width: 30px;
+  }
+  .timeline.right2017 {
+    top: 52.5%;
+    padding-left: 0;
+    padding-top: 30px;
+  }
+  .timeline.right .iconpan {
+    top: 0;
+    left: 0;
+    width: 30px;
+  }
+  .timeline.left2016 {
+    max-width: 220px;
+    top: 65%;
+    left: 14%;
+    padding-right: 0;
+    padding-top: 30px;
+  }
+  .timeline.left2016 .iconpan {
+    top: 0;
+    right: 0;
+    width: 30px;
+  }
+  .timeline.left2015 {
+    top: 77.7%;
+    left: 16%;
+    max-width: 260px;
+    text-align: left;
+    padding-right: 0;
+    padding-top: 30px;
+  }
+  .timeline.left2015 .iconpan {
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 30px;
+  }
+  .timeline.right2014 {
+    padding-left: 0;
+    padding-top: 30px;
+    text-align: right;
+    top: 90.9%;
+    left: 8%;
+    max-width: 240px;
+  }
+  .timeline.right2014 .iconpan {
+    left: auto;
+    right: 0;
+  }
+  .teambox h4 {
+    font-size: 16px;
+  }
+  .teambox h4 small {
+    font-size: 10px;
+  }
+  .teamboxcontainer {
+    margin: 0 -20px;
+  }
+  .teambox {
+    max-width: 33%;
+    flex-basis: 33%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,405 @@
+.mapcircle{
+  position: absolute;
+  left: 10%;
+  top: calc(50% - 200px);
+    max-width: 100%;
+}
+.mapuser{
+  position: absolute;
+  left: calc(50% - 42px);
+  top: calc(50% - 212px);
+    max-width: 100%;
+}
+.maplocation{
+  position: absolute;
+    max-width: 100%;
+}
+.maplocation.one{
+  left: calc(50% - 130px);
+  top: calc(50% - 155px);
+}
+.maplocation.two{
+  left: calc(50% - 146px);
+  top: calc(50% - -42px);
+}
+.maplocation.three{
+  left: calc(50% - 0px);
+  top: calc(50% - 0px);
+}
+.mapusergroup{
+  position: absolute;
+  max-width: 100%; 
+  background: linear-gradient(90deg, #FB8530 0%, #FEB50B 100%);
+  border-radius: 50%;
+  padding: 1px;
+}
+.mapusergroup.one{
+  left: calc(50% - -28px);
+  top: calc(50% - 98px);
+}
+.mapusergroup.two{
+  left: calc(50% - 113px);
+  top: calc(50% - -104px);
+}
+.mapusergroup.three{
+  left: calc(50% - 196px);
+    top: calc(50% - 60px);
+}
+.mapusergroup.four{
+  left: calc(50% - 64px);
+  top: calc(50% - 129px);
+}
+.mapusergroup.five{
+  left: calc(50% - 172px);
+  top: calc(50% - 276px);
+}
+
+.journey-container {
+  position: relative;
+  margin-top: 100px;
+}
+.timeline {
+  position: absolute;
+  color: #fff;
+}
+.timeline.left::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  background: #ffffff;
+}
+.timeline.right::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background: #ffffff;
+}
+.timeline.left {
+  text-align: right;
+  max-width: 300px;
+  padding-right: 25px;
+}
+.timeline.right {
+  text-align: left;
+  max-width: 300px;
+  padding-left: 25px;
+}
+.timeline.left .iconpan {
+  right: -60px;
+  position: absolute;
+  top: calc(50% - 15px);
+  width: 40px;
+}
+.timeline.right .iconpan {
+  left: -60px;
+  position: absolute;
+  top: calc(50% - 15px);
+  width: 40px;
+}
+.timeline h4 {
+  font-size: 26px;
+  font-weight: 900;
+  line-height: normal;
+  background: -webkit-linear-gradient(#fb8133 100%, #ffba08 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+.timeline h5 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+.timeline p {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+  color: #ececec;
+  margin: 0;
+}
+.timeline.step1 {
+  top: -14%;
+  left: 19%;
+}
+.timeline.step2 {
+  top: 15%;
+  left: 62%;
+}
+.timeline.step3 {
+  top: 65%;
+  left: 72%;
+}
+.timeline.step4 {
+  top: 51%;
+  left: 22%;
+}
+.timeline.right.step1 .iconpan {
+  top: calc(50% - 25px);
+  left: -70px;
+}
+
+.mobileSH {
+  display: none;
+}
+.about-journey h3 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+}
+.imgmbjourney{
+  max-width: 100%;
+  width: 100%;
+}
+.usersgroup{
+  text-align: right;
+}
+.usersgroup .userpic {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+.usersgroup .userpic img {
+  width: 54px;
+  height: 54px;
+}
+.usersgroup .userpic img.top {
+  position: relative;
+  z-index: 1;
+  margin-right: -28px;
+}
+.imgdtjourney{width: 100%;}
+.responscontent{
+  color: #fff;
+}
+.responscontent ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.responscontent ul li{
+  list-style: none;
+  padding: 8px 16px 8px 0;
+  margin: 0;
+  max-width: 50%;
+  flex-basis: 50%; 
+}
+.responscontent .rolebox{
+  background: #1D2028;
+  box-shadow: 0px 19.0515px 33.8694px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  padding: 15px 15px 15px 40px;
+  position: relative;
+}
+.responscontent .rolebox .iconpan{
+  position: absolute;
+    left: 15px;
+    width: 16px;
+    height: 16px;
+    top: calc(50% - 8px);
+}
+.superherobenifitcon .rolebox{
+min-height: 88px;
+padding: 15px 15px 15px 90px;
+display: flex;
+    align-items: center;
+}
+.superherobenifitcon .superherobenifit{
+  width: 58px;
+  height: 58px;
+  background: linear-gradient(90deg, #FB8530 0%, #FEB50B 100%);
+  border-radius: 50%;
+  display: inline-block;
+    text-align: center;
+    position: absolute;
+    left: 15px;
+}
+.superherobenifit img{
+  width: 54px;
+  position: relative;
+    margin-top: -8px;
+}
+.supergift{
+  text-align: right;
+}
+.supergift img{
+  width: 115px;
+    position: relative;
+    margin-top: -25px;
+}
+.monthhead .subtitle {
+  font-size: 16px;
+  color: #fff;
+  padding-left: 15px;
+  line-height: normal;
+  font-weight: normal;
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.monthhead .subtitle::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  background: linear-gradient(90deg, #FB8530 0%, #FEB50B 100%);
+  height: 100%;
+  width: 2px;
+}
+.monthhead .txtlight{
+  color: #E0E0E0;
+}
+.heroofthemonth img{
+  max-width: 100%;
+}
+.listensuperhero.studentsay .box{
+  background: #15171E;
+  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.2);
+}
+.listensuperhero.studentsay .box .boxhead .pricedetail::after{
+  display: none;
+}
+.listensuperhero.studentsay .featureimg img{
+  width: 70px;
+}
+.sociallinks .facebook,
+.sociallinks .twitter,
+.sociallinks .linkedin,
+.sociallinks .instagram{
+width: 24px;
+height: 24px;
+border-radius: 50%;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+margin-left: 10px;
+background: rgba(255, 255, 255, 0.2);
+text-align: center;
+color: #fff;
+}
+.superbtnalign{text-align: right;}
+.joincomunity img{max-width: 240px;}
+.joincomunitypan{align-items: center;}
+.findus a{display: inline-block;margin: 5px;}
+@media (max-width: 767px) { 
+  .sociallinks .facebook,
+.sociallinks .twitter,
+.sociallinks .linkedin,
+.sociallinks .instagram{
+  width: 20px;
+  height: 20px;
+  margin-left: 4px;
+}
+  .superbtnalign{text-align: left;}
+  .mapcircle{
+    left: 0%;
+    top: calc(50% - 240px);
+  }
+  .maplocation.one {
+    left: calc(50% - 80px);
+    top: calc(50% - 100px);
+}
+.maplocation.three {
+  left: calc(50% - 4px);
+  top: calc(50% - -4px);
+}
+.maplocation.two {
+  left: calc(50% - 90px);
+  top: calc(50% - -20px);
+}
+.mapusergroup.one {
+  left: calc(50% - -25px);
+  top: calc(50% - 50px);
+}
+.mapusergroup.two {
+  left: calc(50% - 100px);
+  top: calc(50% - -70px);
+}
+.mapusergroup.four {
+  left: calc(50% - 50px);
+  top: calc(50% - 100px);
+}
+.mapusergroup.five {
+  left: calc(50% - 132px);
+  top: calc(50% - 205px);
+}
+.mapusergroup.three {
+  left: calc(50% - 130px);
+  top: calc(50% - 60px);
+}
+  .usersgroup{
+    text-align: left;
+  }
+
+  .mobileSH {
+    display: block;
+    text-align: center;
+  }
+  .about-journey h3 {
+    display: none;
+  }
+  .dtalign {
+    text-align: center;
+  }
+  .timeline h4 {
+    font-size: 14px;
+  }
+  .timeline h5 {
+    font-size: 12px;
+  }
+  .timeline p {
+    font-size: 10px;
+  }
+  .timeline.right{
+    padding-left: 10px;
+  }
+  .timeline.right .iconpan {
+     width: 20px;
+     left: -25px;
+  }
+  .timeline.step1 {
+    top: -24%;
+    left: 19%;
+}
+  .timeline.right.step1 .iconpan {
+    top: calc(50% - 15px);
+    left: -25px;
+}
+.timeline.step2 {
+  top: 10%;
+  left: 65%;
+}
+.timeline.left{
+  padding-right: 10px;
+}
+.timeline.left .iconpan{
+  width: 20px;
+  right: -25px;
+}
+.timeline.step3{
+  left: 58%;
+}
+.responscontent ul li{
+  list-style: none;
+  padding: 8px 0;
+  margin: 0;
+  max-width: 100%;
+  flex-basis: 100%; 
+}
+ .supergift{
+   text-align: center;
+ }
+ .supergift img{
+  margin-top: 0;
+}
+}

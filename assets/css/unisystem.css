@@ -1,0 +1,279 @@
+.system {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.sun {
+  width: 70px;
+  height: 70px;
+  background: #1d2028;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -35px;
+}
+.sun img {
+  width: 32px;
+  height: 32px;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -16px;
+  margin-left: -16px;
+}
+@keyframes rot-mar {
+  from {
+    transform: rotate(0deg) translateX(-75px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(-75px) rotate(-360deg);
+  }
+}
+.mar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #ff7a01;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px;
+  animation: rot-mar 6.87s infinite linear;
+  z-index: 200;
+}
+@keyframes rot-mar1 {
+  from {
+    transform: rotate(0deg) translateY(-75px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateY(-75px) rotate(-360deg);
+  }
+}
+
+.mar1 {
+  animation: rot-mar1 6.87s infinite linear;
+}
+
+.mar-path {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  z-index: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -75px;
+  border: solid 1px #fb8133;
+}
+@keyframes rot-jup {
+  from {
+    transform: rotate(0deg) translatey(-135px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translatey(-135px) rotate(-360deg);
+  }
+}
+.jup {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #ff7a01;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px;
+  animation: rot-jup 43.32s infinite linear;
+  z-index: 200;
+}
+
+@keyframes rot-jup1 {
+  from {
+    transform: rotate(0deg) translate(-135px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translate(-135px) rotate(-360deg);
+  }
+}
+.jup1 {
+  animation: rot-jup1 43.32s infinite linear;
+}
+.jup-path {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  z-index: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -135px;
+  border: solid 1px #fb8133;
+}
+
+@keyframes rot-sat {
+  from {
+    transform: rotate(0deg) translatey(-190px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translatey(-190px) rotate(-360deg);
+  }
+}
+.sat {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #ff7a01;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px;
+  animation: rot-sat 107.59s infinite linear;
+  z-index: 200;
+}
+
+@keyframes rot-sat1 {
+  from {
+    transform: rotate(0deg) translate(-190px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translate(-190px) rotate(-360deg);
+  }
+}
+.sat1 {
+  animation: rot-sat1 107.59s infinite linear;
+}
+.sat-path {
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  z-index: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -190px;
+  border: solid 1px #fb8133;
+}
+
+.mar img,
+.jup img,
+.sat img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+@media (max-width: 991px) {
+  .system {
+    height: 80%;
+  }
+  .sun {
+    width: 58px;
+    height: 58px;
+    margin: -29px;
+  }
+  .sun img {
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+    margin-left: -12px;
+  }
+  .mar-path {
+    width: 118px;
+    height: 118px;
+    margin: -59px;
+  }
+
+  @keyframes rot-mar {
+    from {
+      transform: rotate(0deg) translateX(-59px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translateX(-59px) rotate(-360deg);
+    }
+  }
+  .mar {
+    width: 30px;
+    height: 30px;
+    margin: -15px;
+    animation: rot-mar 6.87s infinite linear;
+  }
+
+  @keyframes rot-mar1 {
+    from {
+      transform: rotate(0deg) translateY(-59px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translateY(-59px) rotate(-360deg);
+    }
+  }
+  .mar1 {
+    animation: rot-mar1 6.87s infinite linear;
+  }
+
+  .jup-path {
+    width: 188px;
+    height: 188px;
+    margin: -94px;
+  }
+  @keyframes rot-jup {
+    from {
+      transform: rotate(0deg) translatey(-94px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translatey(-94px) rotate(-360deg);
+    }
+  }
+  .jup {
+    width: 30px;
+    height: 30px;
+    margin: -15px;
+    animation: rot-jup 43.32s infinite linear;
+  }
+
+  @keyframes rot-jup1 {
+    from {
+      transform: rotate(0deg) translate(-94px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translate(-94px) rotate(-360deg);
+    }
+  }
+  .jup1 {
+    animation: rot-jup1 43.32s infinite linear;
+  }
+
+  .sat-path {
+    width: 260px;
+    height: 260px;
+    margin: -130px;
+  }
+  @keyframes rot-sat {
+    from {
+      transform: rotate(0deg) translatey(-130px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translatey(-130px) rotate(-360deg);
+    }
+  }
+  .sat {
+    width: 30px;
+    height: 30px;
+    margin: -15px;
+    animation: rot-sat 107.59s infinite linear;
+  }
+
+  @keyframes rot-sat1 {
+    from {
+      transform: rotate(0deg) translate(-130px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translate(-130px) rotate(-360deg);
+    }
+  }
+  .sat1 {
+    animation: rot-sat1 107.59s infinite linear;
+  }
+}

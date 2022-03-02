@@ -1,0 +1,296 @@
+.hireusbanner {
+  background: linear-gradient(96.32deg, #06215D 0%, #7E348B 100%);
+  overflow: visible;
+  padding-bottom: 100px;
+}
+.hireusbanner h2 {
+  font-size: 28px;
+  line-height: normal;
+  color: #fff;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+.hireusbanner .headtxt{
+  margin-bottom: 0;
+  line-height: normal;
+}
+.hireusbanner .bannerimg {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.hireusbanner .bannerimg img{
+  width: 70px;
+}
+.hireusbanner .subtitle {
+  font-size: 16px;
+  color: #fff;
+  line-height: normal;
+  font-weight: normal;
+}
+.hirefromusfrm{
+  background: #1C1E25;
+box-shadow: 0px 15px 32px rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+padding: 50px 40px;
+width: 96%;
+color: #fff;
+position: absolute;
+}
+.hirefromusfrm input[type="text"]{
+  background: #15171E;
+  border:0;
+border-radius: 4px;
+}
+.hirefromusfrm .form-group .required{
+position: relative;
+}
+.hirefromusfrm .form-group .required::after{
+  position: absolute;
+  content: '*';  
+  color: #ccc;
+  }
+
+.talentpoolpan {
+  margin-top: 50px;
+}
+.talentpoolbg{
+  background: #08090C;
+}
+.talentcard {
+  position: relative;
+margin-bottom: 16px;
+}
+.talentcard img {
+  width: 100%;
+  border-radius: 5px;
+}
+.taletbadge{
+  background: #FFFFFF;
+border-radius: 4px;
+position: absolute;
+bottom: 10px;
+left: 10px;
+font-size: 7px;
+}
+
+.procardMT50{margin-top: 50px;}
+.procardMT80{margin-top: 80px;}
+.procardMT160{margin-top: 160px;}
+
+.talentmasonry { 
+ display: block;
+ position: relative;
+ margin-bottom: 15px;
+}
+.talentmasonry img{
+  max-width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.talentpoolpan .right p {
+  font-weight: normal;
+  font-size: 12px;
+  color: #B6B6B6;
+  line-height: normal;
+  margin: 0;
+}
+.talentpoolpan .right h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+.talentpoolpan .right h5 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 30px 0 0 0;
+}
+.talentpoolpan .right p {
+  color: #b6b6b6;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: normal;
+}
+
+.topcompanywrapper .lstcompany{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lstcompany .txthead{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  border-right: 1px solid #393939;
+  padding-right: 5%;
+    margin-right: 5%;
+  flex-basis: 200px;
+    max-width: 200px;
+}
+.lstcompany .lstbrandlogo{
+  display: flex;
+  align-items: center;
+}
+.lstcompany .lstbrandlogo img{
+  height: 30px;
+  margin: 0 20px;
+  max-width: 100%;
+}
+
+.placeassistbg {
+  background-image: url(../../assets/img/projectbg.svg);
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.servicesbg{
+  background: #1A1C25;
+}
+.servicesbox.hirefrombox{
+  flex-wrap: wrap;
+}
+.hirefrombox .icon-box{
+  display: flex;
+  flex-direction: column;
+  max-width: 25%;
+  flex-basis: 25%;
+  padding: 0 40px;
+  margin: 15px 0;
+}
+.hirefrombox .icon-box:nth-child(1),
+.hirefrombox .icon-box:nth-child(5){
+  padding-left: 0;
+}
+.hirefrombox .icon-box:nth-child(4):after{
+  border-right-width:0;
+}
+.width75Percent{ width: 75%;margin-left: auto;}
+.marginT20P{margin-top: 20%;}
+.hireusdetail{
+color: #fff;
+}
+.hireusdetail h5{
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+.hireusdetail h3{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.hireusdetail h1{
+  font-size: 56px;
+  font-weight: 900;
+  background: linear-gradient(90deg, #FB8133 0%, #FFBA08 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+.hireusdetail p{
+  font-size: 12px;
+  margin: 0;
+}
+.emprole{
+  display: flex;
+  width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.emprole .emprolebox{
+  background: #15171E;
+border-radius: 6px;
+padding: 15px;
+color: #fff;
+font-size: 12px;
+display: flex;
+flex-direction: column;
+max-width: 18%;
+flex-basis: 18%;
+margin: 1%;
+border: 1px solid transparent;
+}
+/* .emprole .emprolebox:hover{
+box-shadow: 0px 17.3923px 37.1036px rgba(0, 0, 0, 0.2);
+  border-image: linear-gradient(to right,#FB8530, #FEB50B);
+} */
+.emprole .emprolebox .svgicon{
+margin-bottom: 4px;
+}
+.emprole .emprolebox .svgicon img{
+  width: 16px;
+}
+.emprole .emprolebox.last{
+  align-items: center;
+  justify-content: center;
+}
+.iconrespecialst{
+  width: 32px;
+}
+.respecialst .hinttxt{
+  display: inline-block;
+  margin-left: 20px;
+  color: #ACACAC;;
+}
+.respecialst label{
+color: #fff;
+}
+.respecialst input[type='text']{
+  background: #1F222C;
+  border-radius: 5px;
+  border: 0;
+  color: #ccc;
+}
+@media (max-width: 991px) {
+  .courseoverview .row .col-md-8{order: 2;}
+  .courseoverview .row .col-md-4{order: 1;}
+  .hireusbanner .bannerimg{align-items: center;}  
+
+}
+@media (max-width: 767px) {
+  .hireusbanner{padding-bottom: 20px}
+  .hirefromusfrm{
+    padding: 20px;
+    width: 100%;
+    position: static;
+    margin-top: 20px;
+  }
+  .hirefrombox .icon-box{border: 0;max-width: 100%; flex-basis: 100%;padding: 0;}
+  .marginT20P{margin-top: 0;}
+  .width75Percent{ width: 100%; text-align: center;}
+  .topcompanywrapper .lstcompany{
+    display: block;
+  }
+  .lstcompany .txthead{
+    max-width: 100%;
+    flex-basis: 100%;
+    border-right:0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-bottom:20px;
+  }
+  .lstcompany .lstbrandlogo{
+    overflow: auto;
+  }
+
+  .procardMT80,
+  .procardMT160{
+    margin-top: 0;
+  }
+
+  .hireusbanner h2{font-size: 20px;line-height: normal;}
+  .hireusbanner .subtitle{font-size: 14px;}
+  .hireusbanner .subtitle::before{top:-3px}
+ 
+  .talentpoolpan .right h4{font-size: 16px;}
+  .talentpoolpan .right h5{font-size: 13px; margin-top: 10px;}
+
+  .servicesbox{margin-left: 15px;}
+
+}
