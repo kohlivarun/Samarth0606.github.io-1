@@ -1,6 +1,12 @@
+/* adding class for inline block for images in live batch */
+/* .making_inline{
+  display: inline-block;
+} */
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: "Mulish", sans-serif;
   background: #15171e;
@@ -2976,4 +2982,10 @@ font-size: 14px;
     display: block;
     float: right;
   }
+}
+
+
+/* adding class for inline block for images in live batch */
+.making_inline{
+  display: inline-block;
 }
