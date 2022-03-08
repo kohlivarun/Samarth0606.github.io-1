@@ -1,12 +1,6 @@
-/* adding class for inline block for images in live batch */
-/* .making_inline{
-  display: inline-block;
-} */
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
 body {
   font-family: "Mulish", sans-serif;
   background: #15171e;
@@ -663,6 +657,13 @@ h2.subheadtxt {
 .btn-outline:hover{
   color: #fff;
 }
+.bannerCarousel.codingslider .btn-get-started img{
+  display: inline-block;
+  width: 6px;
+}
+.bannerCarousel.codingslider .owl-dots{
+text-align: center;
+}
 #hero .infotext {
   font-size: 14px;
   font-weight: 700;
@@ -683,7 +684,10 @@ h2.subheadtxt {
   position: relative;
   bottom: 10px;
 }
-
+.bannerCarousel .posRel .txtunderline{
+  width: 150px;
+  display: inline-block;
+}
 /*card css*/
 .grid-layout {
   display: grid;
@@ -1882,14 +1886,65 @@ position: relative;
   margin: 6px 12px 6px 0;
   height: 54px;
   position: relative;
+  transition: all 0.3s ease;
 }
-.btndreamjobs.active::before {
+/*.btndreamjobs.active::before {
   position: absolute;
   bottom: 0;
   left: 0;
   content: "";
-  border-bottom: 3px solid #ff7a01;
+  border-bottom: 3px solid #ff7a01; 
   width: 70%;
+}*/
+.btndreamjobs .progress {
+  width: 0%;
+  z-index: 5;
+  background: #ff7a01;
+  opacity: 0;
+  transition: all 0.3s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.btndreamjobs.active .progress {
+  opacity: 1;
+  animation: progress-anim 5s ease 0s;
+  height: 3px;
+}
+@keyframes progress-anim {
+  0% {
+    width: 0%;
+  }
+  10% {
+    width: 10%;
+  }
+  20% {
+    width: 20%;
+  }
+  30% {
+    width: 30%;
+  }
+  40% {
+    width: 40%;
+  }
+  50% {
+    width: 50%;
+  }
+  60% {
+    width: 60%;
+  }
+  70% {
+    width: 70%;
+  }
+  80% {
+    width: 80%;
+  }
+  90% {
+    width: 90%;
+  }
+  100% {
+    width: 100%;
+  }
 }
 .btndreamjobs img {
   max-width: 100%;
@@ -2393,7 +2448,10 @@ flex-basis: 48%;
   position: absolute;
   right: 1px;
   bottom: 2px;
-  width: 85%;
+  width: 60%;
+  min-height: 20px;
+  display: inline-flex;
+    align-items: center;
 }
 
 #sync2 .owl-item.current img{
@@ -2440,7 +2498,6 @@ width: 68px;
 }
 #sync2 .item .companylogo img{
   width: 100%;
-  height: 20px;
   border-radius: 0;
   border:0;
   }
@@ -2982,10 +3039,4 @@ font-size: 14px;
     display: block;
     float: right;
   }
-}
-
-
-/* adding class for inline block for images in live batch */
-.making_inline{
-  display: inline-block;
 }
