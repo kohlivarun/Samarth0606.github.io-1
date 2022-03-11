@@ -913,8 +913,21 @@ padding: 16px;
     background: linear-gradient(180deg, #34A866 0%, #087D4C 100%);
   }
   .batchcardcontainer .box.batchfull{
-opacity: 0.5;
+  opacity: 0.5;
   }
+
+
+/*--------------------------------- adding samarth code ---------------------*/
+.batchfull button {
+  visibility: hidden ;
+}
+
+.batchfull strong {
+  visibility: hidden ;
+}
+/*-------------------------------- added till here only ---------------------*/
+
+
   .box .btncardgroup .btn-primary{
 margin-top: 0;
 line-height: normal;
