@@ -919,7 +919,8 @@ padding: 16px;
 
 /*--------------------------------- adding samarth code ---------------------*/
 .batchfull button {
-  visibility: hidden ;
+  /* visibility: hidden ; */
+  display: none;
 }
 
 .batchfull strong {
