@@ -918,7 +918,7 @@ padding: 16px;
 
 
 /*--------------------------------- adding samarth code ---------------------*/
-.batchfull button {
+.batchfull .wishlst button ,.batchfull .btncardgroup button{
   /* visibility: hidden ; */
   display: none;
 }
