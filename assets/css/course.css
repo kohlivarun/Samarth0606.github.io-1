@@ -926,6 +926,10 @@ padding: 16px;
 .batchfull strong {
   visibility: hidden ;
 }
+
+.box .mentorpic img{
+  display: inline-block;
+}
 /*-------------------------------- added till here only ---------------------*/
 
 
