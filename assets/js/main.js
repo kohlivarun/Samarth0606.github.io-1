@@ -591,6 +591,98 @@ $("[name=rdCourseType36]").each(function(i) {
 
 // android ends here
 
+// ml and ds starts herre
+$("[name=rdCourseType37]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-73, #premiumLite-74').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType38]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-75, #premiumLite-76').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType39]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-77, #premiumLite-78').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType40]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-79, #premiumLite-80').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType41]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-81, #premiumLite-82').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType42]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-83, #premiumLite-84').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType43]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-85, #premiumLite-86').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType44]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-87, #premiumLite-88').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType45]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-89, #premiumLite-90').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType46]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-91, #premiumLite-92').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType47]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-93, #premiumLite-94').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+
+// ml and dl ends here
+
 
 
 
