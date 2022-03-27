@@ -823,7 +823,7 @@ font-size: 14px;
 font-weight: 700;
 padding: 15px 30px;
 }
-.batchcontent .nav-pills .nav-link img{
+.batchcontent .nav-pills .nav-link>img{
   width: 32px;
   margin-right: 10px;
 }
@@ -913,8 +913,107 @@ padding: 16px;
     background: linear-gradient(180deg, #34A866 0%, #087D4C 100%);
   }
   .batchcardcontainer .box.batchfull{
-opacity: 0.5;
+  opacity: 0.5;
   }
+
+
+/*--------------------------------- adding samarth code ---------------------*/
+.batchfull .wishlst button ,.batchfull .btncardgroup button{
+  /* visibility: hidden ; */
+  display: none;
+}
+
+.batchfull strong {
+  visibility: hidden ;
+}
+
+.box .mentorpic img{
+  display: inline-block;
+}
+  /* ----------------------------------------------------------------------------- */
+  .control-btn {
+    background-color: rgb(238, 238, 238);
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .batchcardcontainer  .box .coursetype{
+    padding: 16px;
+    border-top: 1px solid #3B4254;
+    border-bottom: 1px solid #3B4254;
+    }
+    .batchcardcontainer  .box .coursetype h5{
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .batchcardcontainer  .box .coursetype .customradio{
+      margin-right: 20px;
+    }
+  .customradio{
+    position: relative;
+  }
+  .customradio.inlineFlex{
+    display: inline-flex;
+    align-items: center;
+  }
+  .customradio [type="radio"]:checked,
+  .customradio [type="radio"]:not(:checked) {
+      position: absolute;
+      left: -9999px;
+      display: none;
+  }
+  .customradio [type="radio"]:checked + label,
+  .customradio [type="radio"]:not(:checked) + label{
+      position: relative;
+      padding-left: 28px;
+      cursor: pointer;
+      line-height: normal;
+      font-size: 12px;
+      display: inline-block;
+      color: #fff;
+      margin: 0;
+  }
+  .customradio [type="radio"]:checked + label:before,
+  .customradio [type="radio"]:not(:checked) + label:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 18px;
+      height: 18px;
+      border: 1px solid #666;
+      border-radius: 100%;
+      background: #666;
+  }
+  .customradio [type="radio"]:checked + label:after,
+  .customradio [type="radio"]:not(:checked) + label:after {
+      content: '';
+      width: 10px;
+      height: 10px;
+      background: linear-gradient(90deg, #f26a3e 0%, #fb8133 100%);
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      border-radius: 100%;
+      -webkit-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+  }
+  .customradio [type="radio"]:not(:checked) + label:after {
+      opacity: 0;
+      -webkit-transform: scale(0);
+      transform: scale(0);
+  }
+  .customradio [type="radio"]:checked + label:after {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+  }
+  /* ---------------------------------------------------------------------- */
+
+/*-------------------------------- added till here only ---------------------*/
+
+
   .box .btncardgroup .btn-primary{
 margin-top: 0;
 line-height: normal;
@@ -944,7 +1043,7 @@ line-height: normal;
     background: #2C2E37;
   }
   .batchcardcontainer .mentordetail .mentorname {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     line-height: normal;
 }
@@ -967,10 +1066,6 @@ margin-top: 5px;
 .batchcardcontainer .mentordetail .mentorpic img{
   width: 62px;
   height: 62px;
-}
-.batchcardcontainer .mentordetail .mentorpic .toppic{
-  position: relative;
-  right: -16px;
 }
 .batchcardcontainer  .box .boxdetail{
 padding: 16px;
@@ -1227,79 +1322,87 @@ padding-left: 15px;
   border-radius: 5px;
   cursor: pointer;
 }
-/* ----------------------------online cards added------------------------------------------------- */
-.batchcardcontainer  .box .coursetype{
-  padding: 16px;
-  border-top: 1px solid #3B4254;
-  border-bottom: 1px solid #3B4254;
-  }
-  .batchcardcontainer  .box .coursetype h5{
-    font-size: 12px;
-    font-weight: 700;
-  }
-  .batchcardcontainer  .box .coursetype .customradio{
-    margin-right: 20px;
-  }
-  .customradio{
-    position: relative;
-  }
-  .customradio.inlineFlex{
-    display: inline-flex;
-    align-items: center;
-  }
-  .customradio [type="radio"]:checked,
-  .customradio [type="radio"]:not(:checked) {
-      position: absolute;
-      left: -9999px;
-      display: none;
-  }
-  .customradio [type="radio"]:checked + label,
-  .customradio [type="radio"]:not(:checked) + label{
-      position: relative;
-      padding-left: 28px;
-      cursor: pointer;
-      line-height: normal;
-      font-size: 12px;
-      display: inline-block;
-      color: #fff;
-      margin: 0;
-  }
-  .customradio [type="radio"]:checked + label:before,
-  .customradio [type="radio"]:not(:checked) + label:before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 18px;
-      height: 18px;
-      border: 1px solid #666;
-      border-radius: 100%;
-      background: #666;
-  }
-  .customradio [type="radio"]:checked + label:after,
-  .customradio [type="radio"]:not(:checked) + label:after {
-      content: '';
-      width: 10px;
-      height: 10px;
-      background: linear-gradient(90deg, #f26a3e 0%, #fb8133 100%);
-      position: absolute;
-      top: 4px;
-      left: 4px;
-      border-radius: 100%;
-      -webkit-transition: all 0.2s ease;
-      transition: all 0.2s ease;
-  }
-  .customradio [type="radio"]:not(:checked) + label:after {
-      opacity: 0;
-      -webkit-transform: scale(0);
-      transform: scale(0);
-  }
-  .customradio [type="radio"]:checked + label:after {
-      opacity: 1;
-      -webkit-transform: scale(1);
-      transform: scale(1);
-  }
-  /* -------------------------------------------------------------------------------------- */
+.locationprofile{
+  position: relative;
+  display: block;
+  padding-left: 60px;
+  font-size: 80%;
+  margin: 10px 0;
+}
+
+.contactno,
+.emailinfo{
+  position: relative;
+  display: block;
+  color: #BDBDBD;
+  font-weight: normal;
+  padding-left: 16px;
+}
+.contactno .iconcall,
+.emailinfo .iconemail{
+  position: absolute;
+  left: 0;
+  top: calc(50% - 5px);
+}
+.locationprofile .mentorpic{
+  position: absolute;
+  left: 0;
+  width: 45px;
+  height: 45px;
+}
+.locationpancontent .batchcontent .nav-pills .nav-link{
+  padding: 20px;
+}
+.alternatecontactsection{
+  color: #fff;
+}
+.alternatecontactsection h4{
+  font-size: 16px;
+}
+.emailorange{
+  color: #F2F2F2;
+  margin: 5px 0;
+}
+.emailorange .smicon{
+margin-right: 6px;
+}
+.alternatecontactsection .bdrclr{
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  margin-bottom: 2rem;
+}
+.responcebox{
+  background: #1A1C25;
+border-radius: 5px;
+padding: 15px 25px;
+display: inline-flex;
+align-items: center;
+color: #fff;
+}
+.responcebox img{
+  width: 18px;
+  margin-left: 10px;
+}
+.franchisefrm{
+  background: #1C1E25;
+box-shadow: 0px 17px 36.0797px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+padding: 50px;
+color: #fff;
+}
+.franchisefrm input[type="text"],
+.franchisefrm select,
+.franchisefrm select:focus,
+.franchisefrm textarea,
+.franchisefrm textarea:focus{
+  background: #15171E;
+  border: 0;
+  border-radius: 4px;
+}
+.franchisefrm .form-group .required::after {
+  position: absolute;
+  content: '*';
+  color: #ccc;
+}
 @media (max-width: 991px) {
   .courseoverview .row .col-md-8{order: 2;}
   .courseoverview .row .col-md-4{order: 1;}
@@ -1401,3 +1504,4 @@ bottom: 85px;
   .faqtotalprice h4{font-size: 14px;}
   .faqtotalprice .btn-secondary{padding: 6px 14px 7px 14px;font-size: 14px;}
 }
+

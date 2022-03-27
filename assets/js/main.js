@@ -285,8 +285,319 @@ $('.promotionalbanner .closepromo').click(function(){
 		$($this.attr('href')).addClass('active');
 	});
 
-  
-//   $('.mmtoggle').click(function(e) {
+  //------------------- adding for online cards------------------------
+   // ------------------------------------for online cards-----------------------------------------------
+   $(function() {
+    $("[name=rdCourseType1]").each(function(i) {
+        $(this).change(function(){
+          $('#premiumLite-1, #premiumLite-2').hide();
+            var divId = 'premiumLite-' + $(this).val();
+            $("#"+divId).show();
+        });
+    });
+    $("[name=rdCourseType2]").each(function(i) {
+      $(this).change(function(){
+        $('#premiumLite-3, #premiumLite-4').hide();
+          var divId = 'premiumLite-' + $(this).val();
+          $("#"+divId).show();
+      });
+  });
+  $("[name=rdCourseType3]").each(function(i) {
+    $(this).change(function(){
+      $('#premiumLite-5, #premiumLite-6').hide();
+        var divId = 'premiumLite-' + $(this).val();
+        $("#"+divId).show();
+    });
+});
+// ----------------samarth added from here------
+$("[name=rdCourseType4]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-7, #premiumLite-8').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType5]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-9, #premiumLite-10').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType6]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-11, #premiumLite-12').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType7]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-13, #premiumLite-14').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType8]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-15, #premiumLite-16').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+// dsa ended here
+
+// competitive started here
+$("[name=rdCourseType9]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-17, #premiumLite-18').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType10]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-19, #premiumLite-20').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType11]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-21, #premiumLite-22').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+
+$("[name=rdCourseType12]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-23, #premiumLite-24').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType13]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-25, #premiumLite-26').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType14]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-27, #premiumLite-28').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType15]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-29, #premiumLite-30').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType16]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-31, #premiumLite-32').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+
+
+// competitve ended here
+
+// interview starts here
+$("[name=rdCourseType17]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-33, #premiumLite-34').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType18]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-35, #premiumLite-36').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType19]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-37, #premiumLite-38').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType20]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-39, #premiumLite-40').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType21]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-41, #premiumLite-42').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType22]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-43, #premiumLite-44').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+// interview ends here
+
+// webdev starts here 
+$("[name=rdCourseType23]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-45, #premiumLite-46').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType24]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-47, #premiumLite-48').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType25]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-49, #premiumLite-50').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType26]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-51, #premiumLite-52').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType27]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-53, #premiumLite-54').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType28]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-55, #premiumLite-56').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType29]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-57, #premiumLite-58').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType30]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-59, #premiumLite-60').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType31]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-61, #premiumLite-62').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType32]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-63, #premiumLite-64').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType33]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-65, #premiumLite-66').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType34]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-67, #premiumLite-68').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+// web dev ends here
+
+// android starts here
+$("[name=rdCourseType35]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-69, #premiumLite-70').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType36]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-71, #premiumLite-72').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+
+// android ends here
+
+
+
+
+ });
+// -----------------------------------------------------------------
+
+  //   $('.mmtoggle').click(function(e) {
 //   	e.preventDefault();
   
 //     let $this = $(this);
