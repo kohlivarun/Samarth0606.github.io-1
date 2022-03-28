@@ -471,6 +471,24 @@ $("[name=rdCourseType22]").each(function(i) {
   });
 });
 
+// addig non coding here
+
+$("[name=rdCourseType50]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-99, #premiumLite-100').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType51]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-101, #premiumLite-102').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+
 // interview ends here
 
 // webdev starts here 
@@ -580,9 +598,26 @@ $("[name=rdCourseType35]").each(function(i) {
   });
 });
 
+// adding in between
+$("[name=rdCourseType48]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-95, #premiumLite-96').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+// starting kotlin
 $("[name=rdCourseType36]").each(function(i) {
   $(this).change(function(){
     $('#premiumLite-71, #premiumLite-72').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+// adding in between of kotlin
+$("[name=rdCourseType49]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-97, #premiumLite-98').hide();
       var divId = 'premiumLite-' + $(this).val();
       $("#"+divId).show();
   });
