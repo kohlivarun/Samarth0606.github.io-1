@@ -927,7 +927,10 @@ padding: 16px;
   visibility: hidden ;
 }
 
-.box .mentorpic img{
+/* .box .mentorpic img{
+  display: inline-block;
+} */
+.box .mentorpic .img_inline_block{
   display: inline-block;
 }
   /* ----------------------------------------------------------------------------- */
