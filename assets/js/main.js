@@ -718,6 +718,178 @@ $("[name=rdCourseType47]").each(function(i) {
 
 // ml and dl ends here
 
+// micro starts here
+$("[name=rdCourseType52]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-103, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType53]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-105, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType54]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-107, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType55]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-109, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType56]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-111, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType57]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-113, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType58]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-115, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType59]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-117, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType60]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-119, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType61]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-121, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType62]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-123, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType63]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-125, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType64]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-127, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType65]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-129, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType66]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-131, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType67]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-133, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType68]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-135, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType69]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-137, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType70]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-139, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType71]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-141, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType72]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-143, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType73]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-145, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType74]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-147, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType75]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-149, #premiumLite-104').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+// micro ends here
+
 
 
 
