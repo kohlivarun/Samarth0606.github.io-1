@@ -233,5 +233,13 @@ left: 5px;
     max-width: 32%;
     flex-basis: 32%;
   }
+  .custom-carousel-inner{
+    display: flex;
+  }
+  .succesorinfo .carousel .custom-carousel-inner .item{
+    margin: 5px;
+  }
+  .small-thumbnail .companylogo{
+    padding: 0 5px;
+  }
 }
-

@@ -579,7 +579,7 @@ color: #fff;
   .timeline.right2018 {
     text-align: right;
     top: 39%;
-    right: 22%;
+    right: 28%;
     padding-left: 0;
     padding-top: 28px;
     max-width: 190px;
@@ -648,9 +648,27 @@ color: #fff;
     margin: 0 -20px;
   }
   .teambox {
-    max-width: 33%;
-    flex-basis: 33%;
+    max-width: 50%;
+    flex-basis: 50%;
     padding: 10px 20px;
     margin-bottom: 10px;
   }
+  .road-container.roadmap-mob .imgroadmap,
+  .road-container.roadmap-mob .roadmapinfo{
+    display: none;
+  }
+  .road-container.roadmap-mob .timeline{
+    position: static;
+    margin-left: 62px;
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+  .road-container.roadmap-mob .timeline.left{
+    margin-right: 62px;
+    margin-left: 0;
+  }
+  .girlwithcup{
+    position: static;
+  }
+  
 }

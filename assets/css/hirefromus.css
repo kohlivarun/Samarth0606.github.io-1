@@ -292,5 +292,11 @@ color: #fff;
   .talentpoolpan .right h5{font-size: 13px; margin-top: 10px;}
 
   .servicesbox{margin-left: 15px;}
-
+  .hireusbanner .hireusimg{
+width: 100%;
+  }
+  .emprole .emprolebox{
+    max-width: 48px;
+    flex-basis: 48%;
+  }
 }

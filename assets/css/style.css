@@ -761,7 +761,7 @@ text-align: center;
     font-size: 18px;
   }
   .studentnum {
-    font-size: 32px;
+    font-size: 28px;
     line-height: normal;
   }
 }
@@ -771,6 +771,10 @@ text-align: center;
   h1.headtxt {
     font-size: 28px;
     line-height: 36px;
+  }
+  .studentnum {
+    font-size: 20px;
+    line-height: normal;
   }
   #hero h2,
   h2.subheadtxt {
@@ -861,7 +865,7 @@ section {
   padding-right: 40px;
   color: #fff;
   margin: 0;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 .section-title p,
 .section-title.left p {
@@ -2964,6 +2968,9 @@ top: calc(50% - 25px);
 .mmaccordion h5{
   font-size: 14px;
 }
+.imgwidth100p{
+  width: 100%;
+}
   @media (min-width: 1200px){
     .dropdown .dropdown-menu.megamenu{
       max-width: 1140px;
@@ -2972,10 +2979,30 @@ top: calc(50% - 25px);
     
   }
 @media (max-width: 767px) {
+  .topplacementwrapper .section-title.left.marginB50{ margin-bottom: 60px;}
+  .learncontent .nav-tabs{
+    display: block;
+  }
+  .learncontent .nav-tabs .nav-item{
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .learncontent .servicesbox{
+    margin: 15px 0 0 0;
+  }
   .mobilemenu .mmsmbox{
 max-width: 100%;
 flex-basis: 100%;
 margin-right: 0;
+  }
+  #sync1 .item{
+    display: block;
+  }
+  #sync1 .item .videocontainer,
+  #sync1 .item .topplacementright{
+    max-width: 100%;
+flex-basis: 100%;
+margin-left: 0;
   }
   .mobilemenu .mmsmbox .smboxdetail{
     color: #fff;
@@ -2990,6 +3017,9 @@ font-size: 14px;
   #footer .footer-bottom {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+  .eventworkshop .details-container .card iframe{
+  width: 100%;
   }
   .btnreview {
     display: flex;
@@ -3051,4 +3081,9 @@ font-size: 14px;
     display: block;
     float: right;
   }
+  .services .container > .section-title.left{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
 }
