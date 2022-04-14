@@ -890,6 +890,94 @@ $("[name=rdCourseType75]").each(function(i) {
 
 // micro ends here
 
+// adding 7 
+$("[name=rdCourseType76]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-151, #premiumLite-152').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType77]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-153, #premiumLite-154').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType78]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-155, #premiumLite-156').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType79]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-157, #premiumLite-158').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType80]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-159, #premiumLite-160').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType81]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-161, #premiumLite-162').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType82]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-163, #premiumLite-164').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+$("[name=rdCourseType83]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-165, #premiumLite-166').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType84]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-167, #premiumLite-168').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType85]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-169, #premiumLite-170').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+$("[name=rdCourseType86]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-171, #premiumLite-172').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
+
+
+
+
 
 
 
