@@ -694,8 +694,8 @@ max-width: 100%;
 }
 .bluebannerimg .blueimg1,
 .bluebannerimg .blueimg3{
-position: relative;
-bottom: -40px;
+position: absolute;
+bottom: 0px;
 }
 .placeassistbg {
   background-image: url(../../assets/img/projectbg.svg);
@@ -1406,7 +1406,15 @@ color: #fff;
   content: '*';
   color: #ccc;
 }
+@media (max-width: 1200px) {
+  .batchcontent .batchcardcontainer .mobileoverflowauto .col-sm-4 {
+    min-width: 340px;
+  }
+}
 @media (max-width: 991px) {
+  .bluebanner h1{
+    font-size: 40px;
+  }
   .courseoverview .row .col-md-8{order: 2;}
   .courseoverview .row .col-md-4{order: 1;}
   .courseaside{position: static;margin-bottom: 30px;}
@@ -1415,12 +1423,23 @@ color: #fff;
     flex-wrap: wrap;
   }
   .learnbox{
-    max-width: 50%;
-    flex-basis: 50%;
+    max-width: 46%;
+    flex-basis: 46%;
+    margin: 0 8px;
   }
-  
+  .bannersubsection{
+    max-width: 100%;
+  }
+  .bluebannerimg .blueimg1, 
+  .bluebannerimg .blueimg3{
+position: absolute;
+  }
+  .bluebannerimg .blueimg3{
+    right: 6%;
+  }
 }
 @media (max-width: 767px) {
+ 
   .batchcardcontainer .mobileoverflowauto .col-6{
 max-width: 365px;
 flex-basis: 365px;
@@ -1428,10 +1447,7 @@ flex-basis: 365px;
   .learningboxcontainer{
     flex-wrap: wrap;
   }
-  .learnbox{
-    max-width: 100%;
-    flex-basis: 100%;
-  }
+  
   .topcompanywrapper .lstcompany{
     display: block;
   }
@@ -1447,6 +1463,7 @@ flex-basis: 365px;
   }
   .bluebannerimg{
     position: static;
+    top: 0;
   }
   .bluebannerimg .blueimg1,
 .bluebannerimg .blueimg3{
@@ -1506,12 +1523,15 @@ bottom: 85px;
   .faqtotalprice h4 del{font-size: 12px;}
   .faqtotalprice h4{font-size: 14px;}
   .faqtotalprice .btn-secondary{padding: 6px 14px 7px 14px;font-size: 14px;}
-}
-@media (max-width: 767px) {
-  .batchcardcontainer .row.mobileoverflowauto .box{
-    min-width: 350px;
-  }
   .franchisefrm{
     padding: 15px;
+  }
+}
+
+@media (max-width: 480px){
+  .learnbox{
+    max-width: 100%;
+    flex-basis: 100%;
+    margin: 0;
   }
 }

@@ -720,7 +720,7 @@ text-align: center;
 }
 .grid-item>img{height: 40px;}
 .studentnum {
-  font-size: 32px;
+  font-size: 26px;
   color: #ff7a01;
   font-weight: 900;
   line-height: normal;
@@ -732,6 +732,12 @@ text-align: center;
   font-weight: normal;
   line-height: 24px;
   display: block;
+}
+@media (max-width: 1024px){
+  .studentnum {
+    font-size: 24px;
+    line-height: normal;
+  }
 }
 @media (max-width: 991px) {
   #hero {
@@ -761,21 +767,22 @@ text-align: center;
     font-size: 18px;
   }
   .studentnum {
-    font-size: 28px;
+    font-size: 18px;
     line-height: normal;
   }
+  .grid-item{
+    font-size: 12px;
+  }
+  
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #hero h1,
   h1.headtxt {
     font-size: 28px;
     line-height: 36px;
   }
-  .studentnum {
-    font-size: 20px;
-    line-height: normal;
-  }
+  
   #hero h2,
   h2.subheadtxt {
     font-size: 18px;
@@ -1592,6 +1599,24 @@ learning eco system
   font-weight: normal;
   line-height: normal;
 }
+@media (max-width: 1200px) {
+  .batchcardcontainer .mobileoverflowauto .col-md-3,
+  .batchcardcontainer .mobileoverflowauto .col-sm-4 {
+    min-width: 300px;
+  }
+}
+@media (max-width: 1024px) {
+  .mobileoverflowauto {
+    overflow: auto;
+    flex-wrap: nowrap;
+  }
+  .mobileoverflowauto .col-4 {
+    min-width: 280px;
+  }
+  .batchcardcontainer .mobileoverflowauto .col-md-3 {
+    min-width: 300px;
+  }
+}
 @media (max-width: 991px) {
   .leaningcourse .tabpan {
     display: block;
@@ -1642,13 +1667,7 @@ learning eco system
   .leaningcourse .tab-content p {
     font-size: 12px;
   }
-  .mobileoverflowauto {
-    overflow: auto;
-    flex-wrap: nowrap;
-  }
-  .mobileoverflowauto .col-4 {
-    min-width: 280px;
-  }
+  
 }
 /*--------------------------------------------------------------
 # cource card
@@ -1981,11 +2000,11 @@ position: relative;
     font-size: 18px;
     line-height: normal;
   }
-  .mobileodr1 {
-    order: 2;
-  }
+ /* .mobileodr1 {
+     order: 2; 
+  } */
   .mobileodr2 {
-    order: 1;
+    /* order: 1; */
     height: 340px;
   }
   .mobileodr2 h2.bigheading {
@@ -1993,6 +2012,10 @@ position: relative;
   }
   .mobileodr1 h2.bigheading {
     display: none;
+  }
+  .btndreamjobs{
+    min-width: 150px;
+    padding: 10px 15px;
   }
 }
 /*dream jobs css end*/
@@ -2115,6 +2138,12 @@ position: relative;
   background: #fb8133;
 }
 @media (max-width: 991px) {
+  .courseitem .col-lg-6 .col-md-6.mt-4{
+  margin-top: 0 !important;
+ }
+ .grid-layout{
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+ }
   .blog .btn-primary {
     padding: 10px 15px 11px 15px;
     white-space: nowrap;
@@ -2150,6 +2179,16 @@ position: relative;
     font-size: 14px;
   }
   .promotionalbanner .container .closepromo{right: 10px;}
+  .mobileodr1 {
+    order: 2; 
+ }
+ .mobileodr2 {
+   order: 1;
+ }
+ .courseitem .col-lg-6 .col-md-6.mt-4{
+   margin-top: 1.5rem!important;
+ }
+ 
 }
 /* contact section css end*/
 /*--------------------------------------------------------------
@@ -2179,12 +2218,12 @@ position: relative;
   background: #1f222c;
   height: 60px;
   padding: 5px 30px;
-  margin-left: 30px;
+  margin-right: 30px;
   display: inline-flex;
   align-items: center;
 }
-.btnreview:first-child {
-  margin-left: 0;
+.btnreview:last-child {
+  margin-right: 0;
 }
 .btnreview .socialicon {
   min-width: 25px;
@@ -2978,7 +3017,16 @@ top: calc(50% - 25px);
     }
     
   }
+  @media (max-width: 1024px) {
+    #footer .footer-top .footer-contact p{
+      font-size: 12px;
+    }
+  }
 @media (max-width: 767px) {
+  .placementcard{
+    flex: 0 0 150px;
+    }
+  .btnreview:last-child{margin-right: auto;}
   .topplacementwrapper .section-title.left.marginB50{ margin-bottom: 60px;}
   .learncontent .nav-tabs{
     display: block;

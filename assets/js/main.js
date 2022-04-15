@@ -975,6 +975,14 @@ $("[name=rdCourseType86]").each(function(i) {
   });
 });
 
+// python fundamental
+$("[name=rdCourseType87]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-173, #premiumLite-174').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
 
 
 
