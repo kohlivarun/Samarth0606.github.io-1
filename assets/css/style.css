@@ -460,7 +460,7 @@ position: static !important;
 @media (max-width: 991px) {
   .get-started-btn {
     margin: 0;
-    padding: 6px 15px 7px 15px;
+    padding: 4px 10px 5px 10px;
   }
 }
 
@@ -1614,7 +1614,7 @@ learning eco system
     min-width: 280px;
   }
   .batchcardcontainer .mobileoverflowauto .col-md-3 {
-    min-width: 300px;
+    width: 300px;
   }
 }
 @media (max-width: 991px) {
@@ -3015,13 +3015,43 @@ top: calc(50% - 25px);
       max-width: 1140px;
       margin: 0 auto;
     }
+   
+    
+  }
+  @media (max-width: 1200px) {
+    .btnreview {
+      padding: 5px 20px;
+      margin-right: 20px;
+    }
+    .btnreview:last-child {
+      margin-right: 0;
+    }
+    
     
   }
   @media (max-width: 1024px) {
     #footer .footer-top .footer-contact p{
       font-size: 12px;
     }
+    .btnreview{
+      padding: 5px 15px;
+    }
+   
   }
+  @media (max-width: 992px) {
+    .btnreview{
+      padding: 5px 10px;
+      margin-right: 0px;
+    }
+    .btnreview:last-child{
+      margin-right: 0;
+    }
+    #footer .footer-logo-social .social-links a {
+      font-size: 18px;
+    }
+   
+  }
+
 @media (max-width: 767px) {
   .placementcard{
     flex: 0 0 150px;

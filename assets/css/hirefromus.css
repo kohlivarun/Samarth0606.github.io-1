@@ -247,10 +247,16 @@ color: #fff;
   border: 0;
   color: #ccc;
 }
+@media (max-width: 1200px) {
+  .lstcompany .lstbrandlogo{
+    overflow: auto;
+  }
+}
 @media (max-width: 991px) {
   .courseoverview .row .col-md-8{order: 2;}
   .courseoverview .row .col-md-4{order: 1;}
   .hireusbanner .bannerimg{align-items: center;}  
+  
 
 }
 @media (max-width: 767px) {
@@ -275,9 +281,9 @@ color: #fff;
     margin-right: 0;
     margin-bottom:20px;
   }
-  .lstcompany .lstbrandlogo{
+  /* .lstcompany .lstbrandlogo{
     overflow: auto;
-  }
+  } */
 
   .procardMT80,
   .procardMT160{

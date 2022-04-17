@@ -102,7 +102,10 @@ $('.promotionalbanner .closepromo').click(function(){
       },
   
       600: {
-        items: 2
+        items: 1
+      },
+      1024:{
+        items:2
       }
     }
   });

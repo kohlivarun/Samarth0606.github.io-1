@@ -291,7 +291,25 @@ color: #fff;
 .joincomunity img{max-width: 240px;}
 .joincomunitypan{align-items: center;}
 .findus a{display: inline-block;margin: 5px;}
+@media (max-width: 991px) { 
+  .maplocation.one {
+    left: calc(50% - 85px);
+}
+.mapusergroup.five {
+  top: calc(50% - 242px);
+}
+.maplocation.two {
+  left: calc(50% - 85px);
+}
+.mapcircle {
+  top: calc(50% - 216px);
+  max-width: 75%;
+}
+}
 @media (max-width: 767px) { 
+  .joincomunitypan .col-md-4{
+text-align: center;
+  }
   .sociallinks .facebook,
 .sociallinks .twitter,
 .sociallinks .linkedin,
