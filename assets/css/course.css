@@ -1123,6 +1123,15 @@ width: auto;
 .batchcardcontainer  .box .btncardgroup{
   padding-top: 0;
 }
+.batchcardcontainer  .box .btncardgroupmore{
+  /* padding:7px 39%; */
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* text-align: center; */
+}
 .batchcardcontainer  .box .btncardgroup.tp16{
   padding-top: 16px;
 }
@@ -1406,10 +1415,29 @@ color: #fff;
   content: '*';
   color: #ccc;
 }
+/* added here by samath and vijay sir */
+.batchcardcontainer  .box .pricedatail .pricepan,
+.batchcardcontainer  .box .pricedatail .wishlst{
+  max-width: 100%;
+  flex-basis: 100%;
+  margin-top: 8px;
+}
+
+
+/*  */
 @media (max-width: 1200px) {
   .batchcontent .batchcardcontainer .mobileoverflowauto .col-sm-4 {
     min-width: 340px;
   }
+  /* added here by samath and vijay sir */
+  .batchcardcontainer  .box .pricedatail .pricepan,
+  .batchcardcontainer  .box .pricedatail .wishlst{
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  
+
+  /*  */
 }
 @media (max-width: 991px) {
   .bluebanner h1{
@@ -1422,6 +1450,17 @@ color: #fff;
   .learningboxcontainer{
     flex-wrap: wrap;
   }
+
+  /* added here by samath and vijay sir */
+  .batchcardcontainer  .box .pricedatail .pricepan,
+  .batchcardcontainer  .box .pricedatail .wishlst{
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  
+
+  /*  */
+
   .learnbox{
     max-width: 46%;
     flex-basis: 46%;
@@ -1455,6 +1494,16 @@ flex-basis: 365px;
   .learningboxcontainer{
     flex-wrap: wrap;
   }
+
+  /* added here by samath and vijay sir */
+  .batchcardcontainer  .box .pricedatail .pricepan,
+  .batchcardcontainer  .box .pricedatail .wishlst{
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  
+
+  /*  */
   
   .topcompanywrapper .lstcompany{
     display: block;
