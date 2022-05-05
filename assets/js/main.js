@@ -990,6 +990,14 @@ $("[name=rdCourseType87]").each(function(i) {
   });
 });
 
+// oops java
+$("[name=rdCourseType88]").each(function(i) {
+  $(this).change(function(){
+    $('#premiumLite-175, #premiumLite-176').hide();
+      var divId = 'premiumLite-' + $(this).val();
+      $("#"+divId).show();
+  });
+});
 
 
 
