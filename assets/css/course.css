@@ -63,12 +63,13 @@
   flex-basis: 22%;
   font-size: 16px;
   font-weight: 700;
-  margin: 0;
+  margin: 2px;
+  /* padding: 2px; */
   line-height: normal;
 }
 .cousecontent p.last{
   white-space: nowrap;
-  max-width: 36%;
+  max-width: 40%;
   flex-basis: 36%;
 }
 .cousecontent p.last b{

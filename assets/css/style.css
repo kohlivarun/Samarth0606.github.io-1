@@ -718,7 +718,10 @@ text-align: center;
   background: #1a1c25;
   border-radius: 10px;
 }
-.grid-item>img{height: 40px;}
+.grid-item>img{
+  height: 40px;
+
+}
 .studentnum {
   font-size: 26px;
   color: #ff7a01;
@@ -848,6 +851,7 @@ section {
 .sectionblackbg .bannersubsection .cousecontent{
   bottom: -64px;
 }
+
 .section-bg .container,
 .lightbg {
   background-color: #1c1e25;
@@ -1781,7 +1785,7 @@ position: relative;
 .courselst h4 {
   color: #fff;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 800;
   margin: 0;
 }
 .courselstarrow a {
@@ -1829,6 +1833,7 @@ position: relative;
   }
   .leaningcourse .box .boxcontainer h5,
   .courselst h4 {
+    width: 60vw;
     font-size: 13px;
   }
   .enrollstu,
@@ -1853,6 +1858,10 @@ position: relative;
     max-width: 80%;
     margin: 0 auto 30px auto;
   } */
+  .courselst h4 {
+    width: 55vw;
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 420px) {
@@ -1860,6 +1869,10 @@ position: relative;
     max-width: 100%;
     margin: 0 auto 30px auto;
   } */
+  .courselst h4 {
+    width: 60vw;
+    font-size: 13px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -2454,7 +2467,7 @@ font-weight: 700;
     flex-basis: 25%;
 }
 .learncontent .servicesbox .icon-box h4{
-  font-size: 14px;
+  font-size: 10px;
 }
 .learncontent .servicesbox .icon-box::after {
   position: absolute;
@@ -2562,12 +2575,14 @@ width: 68px;
 .topplacement{
   position: relative;
 }
-.topplacement .icontp{
+/* .topplacement .icontp{
   position: absolute;
-  top: -75px;
-  left: 20px;
+  top: -70px;
+  left: -10px;
   z-index: 2;
-}
+  width: 14%;
+
+} */
 .marginB50{
   margin-bottom: 50px;
 }
@@ -3015,6 +3030,14 @@ top: calc(50% - 25px);
       max-width: 1140px;
       margin: 0 auto;
     }
+    .topplacement .icontp{
+      position: absolute;
+      top: -70px;
+      left: -10px;
+      z-index: 2;
+      width: 14%;
+      /* height: 30%; */
+    }
    
     
   }
@@ -3025,6 +3048,14 @@ top: calc(50% - 25px);
     }
     .btnreview:last-child {
       margin-right: 0;
+    }
+    /* sam */
+    .topplacement .icontp{
+      position: absolute;
+      top: -70px;
+      left: -10px;
+      z-index: 2;
+      width: 17%;
     }
     
     
@@ -3049,6 +3080,15 @@ top: calc(50% - 25px);
     #footer .footer-logo-social .social-links a {
       font-size: 18px;
     }
+    /* sam */
+    .topplacement .icontp{
+      position: absolute;
+      top: -60px;
+      left: -8px;
+      z-index: 2;
+      width: 19%;
+      /* height: 30%; */
+    }
    
   }
 
@@ -3064,6 +3104,15 @@ top: calc(50% - 25px);
   .learncontent .nav-tabs .nav-item{
     margin-right: 0;
     margin-bottom: 20px;
+  }
+  /* sam */
+  .topplacement .icontp{
+    position: absolute;
+    top: -45px;
+    left: -5px;
+    z-index: 2;
+    width: 22%;
+    /* height: 30%; */
   }
   .learncontent .servicesbox{
     margin: 15px 0 0 0;
@@ -3164,4 +3213,32 @@ font-size: 14px;
     padding-right: 15px;
   }
   
+}
+
+@media (max-width: 576px) {
+  /* sam */
+  .topplacement .icontp{
+    position: absolute;
+    top: -43px;
+    left: -6px;
+    z-index: 2;
+    width: 24%;
+    
+  }
+   
+
+}
+
+@media (max-width: 460px) {
+  /* sam */
+  .topplacement .icontp{
+    position: absolute;
+    top: -40px;
+    left: -2px;
+    z-index: 2;
+    width: 28%;
+   
+  }
+   
+
 }
