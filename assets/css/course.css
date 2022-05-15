@@ -1574,8 +1574,7 @@ bottom: 85px;
   .faq .faq-list a.collapse{font-size: 14px;}
   .faq .faq-list p{font-size: 12px;}
   .frequentlycontainer{padding: 15px 15px 30px 15px;display: block;}
-  .frequentlycontainer .row .col-6,
-  .leaningcourse .row .col-4{min-width: 280px;}
+  .frequentlycontainer .row .col-6{min-width: 280px;}
   .faqtotalprice{margin-left: 0;position: static;max-width: 100%;margin-top: 20px;padding: 10px 15px;}
   .faqtotalprice h4 small,
   .faqtotalprice h4 del{font-size: 12px;}

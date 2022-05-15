@@ -1443,9 +1443,10 @@ padding: 5px 20px;
     padding: 15px;
     margin: 0 7px;
   }
-  .services .icon-box::after {
+  /* .services .icon-box::after {
     display: none;
-  }
+  } */
+
   .services .icon-box h4 {
     font-size: 14px;
   }
@@ -1863,6 +1864,21 @@ position: relative;
     font-size: 13px;
   }
 }
+@media (max-width: 480px){
+  .services .icon-box::after {
+    /* position: absolute; */
+    /* content: ""; */
+    right: 0;
+    top: -21px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-right: 0px ;
+    height: 1px;
+    width: 100%;
+  }
+  .services .icon-box:last-child:after {
+    display: block;
+  }
+}
 
 @media (max-width: 420px) {
   /* .leaningcourse .box {
@@ -2031,6 +2047,17 @@ position: relative;
     padding: 10px 15px;
   }
 }
+
+/* adding sam */
+@media (max-width: 480px) {
+  
+  .btndreamjobs{
+    min-width: 130px;
+    padding: 10px 0px;
+  }
+}
+/*  */
+
 /*dream jobs css end*/
 /* blog section css start */
 .col-md-4 .blog-box {
