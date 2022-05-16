@@ -421,3 +421,48 @@ text-align: center;
   margin-top: 0;
 }
 }
+
+@media (max-width: 480px) { 
+  .imgdtjourney{
+    display: none;
+  }
+  .timeline {
+    position: relative;
+    top: 0;
+    margin-bottom: 25px;
+    margin-left: 34px;
+    left: 0;
+    
+  }
+  .timeline.step1 {
+    top: 0%;
+    left: 0%;
+
+  }
+  .timeline.step2 {
+    top: 0%;
+    left: 0%;
+  }
+  .timeline.step3 {
+    top: 0%;
+    left: 0%;
+    margin-right: 34px;
+  }
+  .timeline.step4 {
+    top: 0%;
+    left: 0%;
+  }
+  .timeline.left{
+    text-align: left;
+    padding-left: 10px;
+  }
+  .timeline.left::before{
+    right: auto;
+    left: 0;
+  }
+  .timeline.left .iconpan{
+    right: auto;
+    left: -25px;
+  }
+  
+}
