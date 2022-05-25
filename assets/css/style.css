@@ -166,6 +166,7 @@ h6 {
 
 .nav-menu > ul {
   display: flex;
+  align-items: center;
 }
 
 .nav-menu > ul > li {
@@ -184,9 +185,22 @@ h6 {
   font-family: "Mulish", sans-serif;
 }
 
-.nav-menu a:hover,
+.nav-menu a small{
+  display: block;
+  color: #ff7a01;
+  font-size: 11px;
+  font-weight: normal;
+  text-align: center;
+
+}
+
+.nav-menu a:hover ,
 .nav-menu li:hover > a {
   color: #ff7a01;
+}
+.nav-menu .btn-primary:hover{
+  color: white;
+
 }
 .nav-menu.topheadnav li a img{
   height: 24px;
