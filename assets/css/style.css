@@ -166,7 +166,7 @@ h6 {
 
 .nav-menu > ul {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .nav-menu > ul > li {
@@ -187,10 +187,10 @@ h6 {
 
 .nav-menu a small{
   display: block;
-  color: #ff7a01;
-  font-size: 11px;
+  color: rgba(194, 196, 190, 1);
+  font-size: 7px;
   font-weight: normal;
-  text-align: center;
+  text-align: left;
 
 }
 
