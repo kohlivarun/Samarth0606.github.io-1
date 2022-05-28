@@ -183,6 +183,7 @@ h6 {
   font-size: 14px;
   font-weight: normal;
   font-family: "Mulish", sans-serif;
+  text-align: left;
 }
 
 .nav-menu a small{
@@ -654,8 +655,18 @@ h2.subheadtxt {
   margin: 10px 0 0 0;
   color: #fff;
   background: linear-gradient(90deg, #f26a3e 0%, #fb8133 100%);
+  /* background-color: #949494; */
   border: 0;
 }
+
+/* ----------------------------------------- */
+/* sam adding for navbar grey */
+.row > .clearfix > .btn-primary{
+  background: #949494;
+}
+/* navbar grey ko end */
+/* ----------------------------------------------- */
+
 .btn-get-started:hover,
 .btn-primary:hover {
   background: linear-gradient(90deg, #f26a3e 0%, #fb8133 100%);
@@ -876,7 +887,7 @@ section {
   padding-bottom: 30px;
   display: flex;
   align-items: center;
-  width: 90%;
+  width: 98%;
   margin: 0 auto;
 }
 .section-title.left {
@@ -891,7 +902,7 @@ section {
   padding-right: 40px;
   color: #fff;
   margin: 0;
-  /* white-space: nowrap; */
+  white-space: nowrap;
 }
 .section-title p,
 .section-title.left p {
@@ -905,7 +916,7 @@ section {
 }
 .section-title.left p {
   padding-left: 0;
-  color: #949494;
+  color: #c8cdb2;
 }
 .section-title p::before {
   content: "";
@@ -2413,7 +2424,7 @@ position: relative;
   line-height: normal;
 }
 #footer .footer-bottom a {
-  color: #fff;
+  color: #a9a9a9;
 }
 #footer .footer-bottom span {
   display: inline-block;
