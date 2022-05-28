@@ -943,7 +943,8 @@ padding: 16px;
     cursor: pointer;
   }
   .batchcardcontainer  .box .coursetype{
-    padding: 16px;
+    /* padding: 16px; */
+    padding: 5px 20px;
     border-top: 1px solid #3B4254;
     border-bottom: 1px solid #3B4254;
     }
@@ -1027,7 +1028,8 @@ line-height: normal;
     border: 0;
   }
   .batchcardcontainer .box .boxhead{
-    padding: 16px;
+    /* padding: 16px; */
+    padding: 5px 20px;
     flex-direction: column;
     align-items: flex-start;
     font-size: 16px;
@@ -1043,7 +1045,8 @@ line-height: normal;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    /* padding: 15px; */
+    padding: 5px 20px;
     background: #2C2E37;
   }
   .batchcardcontainer .mentordetail .mentorname {
@@ -1072,7 +1075,8 @@ margin-top: 5px;
   height: 62px;
 }
 .batchcardcontainer  .box .boxdetail{
-padding: 16px;
+/* padding: 16px; */
+padding: 5px 20px;
 border-bottom: 1px solid #3B4254;
 }
 .batchcardcontainer  .box .boxdetail h5{
@@ -1114,7 +1118,8 @@ width: auto;
 }
 .batchcardcontainer  .box .pricedatail,
 .batchcardcontainer  .box .btncardgroup{
-  padding: 16px;
+  /* padding: 16px; */
+  padding: 10px 20px;
   display: flex;
     width: 100%;
     flex-wrap: wrap;
