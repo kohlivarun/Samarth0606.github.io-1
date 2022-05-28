@@ -660,9 +660,12 @@ h2.subheadtxt {
 }
 
 /* ----------------------------------------- */
-/* sam adding for navbar grey */
+/* sam adding for navbar grey adn courosal dots hatana */
 .row > .clearfix > .btn-primary{
   background: #949494;
+}
+.infopan .owl-dots{
+  display: none;
 }
 /* navbar grey ko end */
 /* ----------------------------------------------- */
