@@ -172,6 +172,19 @@ $('.promotionalbanner .closepromo').click(function(){
     items: 1,
     dots: true  
   });
+
+  // register vaala courosal samarth
+  $(".infocourosal-samarth").owlCarousel({
+    autoplay: true,
+    autoplayTimeout:4000,
+    loop: true,
+    items: 1,
+    dots: true  
+  });
+
+  // 
+
+
   
   var sync1 = jQuery("#sync1");
   var sync2 = jQuery("#sync2");
